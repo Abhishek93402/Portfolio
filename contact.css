@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: orange;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+}
+
+.first>div {
+    width: 30%;
+}
+
+main{
+    margin: 60px;
+}
+h1 {
+    margin-bottom: 20px;
+    color: orangered;
+  }
+  h2{
+    color: orangered;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  input[type="submit"]:hover {
+    background-color: orangered;
+  }
+ ul li a{
+    color: orangered;
+ }
+ p a{
+    color: orangered;
+ }
+ footer {
+    background-color: orangered;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li a {
+    color: white;
+}
+
+
+.footer>div {
+    width: 223px;
+}
+
+footer .text-center {
+    text-align: center;
+    padding-top: 12px;
+}
+

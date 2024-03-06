@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: orange;
+    height: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul li a:hover {
+    color: orangered;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    align-items: center;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    width: 30%;
+}
+
+.leftSection .buttons {
+    padding: 5px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.leftSection .btn2 {
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightSection {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0px;
+}
+
+.orange {
+    color: orangered;
+}
+
+#element {
+    color: orangered;
+}
+
+.second {
+    max-width: 80vw;
+    margin: auto;
+}
+
+main hr {
+    border: 0;
+    background: rgb(240, 108, 59);
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.second h1 {
+    font-size: 1.9rem;
+}
+
+.second .horizonLine {
+    background-color: red;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    margin-bottom: 340px;
+}
+
+.second .verticleLine {
+    height: 93px;
+    width: 1px;
+    background-color: red;
+    margin: 0 150px;
+}
+
+.image-top {
+    width: 45px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 75px;
+    width: 15px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 86px;
+    color: orangered;
+    width: 150px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: orangered;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer ul li a {
+    color: white;
+}
+
+
+.footer>div {
+    width: 223px;
+}
+
+footer .text-center {
+    text-align: center;
+    padding-top: 12px;
+}
